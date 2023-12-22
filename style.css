@@ -347,3 +347,33 @@ header {
 .img-fla:hover{
     width: 30%;
 }
+.infoadm{
+    background-color: rgba(255, 255, 255, 0.589);
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 30px;
+    
+    
+}
+.tituloadm{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: 200%;
+    margin-top: 5%;
+    text-decoration: underline;
+}
+.textoadm{
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.5px;
+    font-size: 130%;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+
+}
+.imgadm{
+    width: 40%;
+    margin-top: 3%;
+    margin-left: 30%;
+}
