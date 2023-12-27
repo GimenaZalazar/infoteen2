@@ -1,7 +1,9 @@
+
 body{
     margin: 0%;
     padding: 0%;
     background-color: #9d205260 ;
+    overflow-x: hidden;
 }
 
 header {
@@ -35,7 +37,7 @@ header {
     transition: all 0.6s ease;
     margin-left: 22%;
     position: absolute;
-    margin-top: -6.5%;
+    margin-top: -6.2%;
     
 }
 
@@ -43,7 +45,6 @@ header {
     width: 3.5%;
     height: 6.5%;
     line-height: 55px;
-    top: 5.5%;
     right: 75%;
     position: absolute;
     background: #9d2053;
@@ -52,7 +53,14 @@ header {
     font-size: 130%;
     border-radius: 50%;
     cursor: pointer;
+    margin-top: -6.5%;
+    
 }
+.btn i{
+    position: relative;
+    top: -1%;
+}
+
   
 .buscar:hover input {
     width: 30%;
@@ -233,97 +241,119 @@ header {
     padding: 0.2%;
     border-radius: 30px;
 }
+.todo{
+    display: flex;
+}
 
 .info1{
     display: flex;
+    margin-left: 6%;
     
-    
+}
+.categorias3{
+    display: flex;
+    margin-left: -10%;
 }
 .enfinfo{
     background-color:#9d205281 ;
-    width: 50%;
+    width: 30%;
     border-radius: 30px;
     margin: 3%;
+    height: 80%;
 }
 .enf-img{
-    width: 80%;
+    width: 70%;
     margin-top: 10%;
-    margin-left: 11%;
+    margin-left: 15%;
     border-radius: 10%;
 }
 .textoenf{
     text-align: center;
-    font-size: 100%;
-    color: #000;
-    font-family: 'Urbanist', sans-serif;
+    font-size: 110%;
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    text-decoration: none;
 
 }
 .textoenf:hover{
-    color: white;
+    color: black;
+    text-decoration: underline;
 }
 .adinfo{
     background-color:#9d205281 ;
-    width: 50%;
+    width: 30%;
     border-radius: 30px;
     margin: 3%;
+    height: 80%;
 }
 .ad-img{
-    width: 80%;
+    width: 70%;
     margin-top: 10%;
-    margin-left: 11%;
+    margin-left: 15%;
     border-radius: 10%;
 }
 .textoad{
-    font-size: 100%;
-    color: #000;
-    font-family: 'Urbanist', sans-serif;
     text-align: center;
+    font-size: 110%;
+    color:white;
+    font-family: 'Rubik', sans-serif;
+    text-decoration: none;
 }
 .textoad:hover{
-    color: white;
+    color: black;
+    text-decoration: underline;
 }
 .bellinfo{
     background-color:#9d205281 ;
-    width: 50%;
+    width: 43%;
     border-radius: 30px;
     margin: 3%;
+    height: 80%;
+    margin-left: -12%;
+    margin-top: 4%;
 }
 .bell-img{
-    width: 80%;
-    margin-top: 10%;
-    margin-left: 11%;
+    width: 70%;
+    margin-top: 9%;
+    margin-left: 14%;
     border-radius: 10%;
 }
 .textobell{
-    font-size: 100%;
-    color: #000;
-    font-family: 'Urbanist', sans-serif;
     text-align: center;
+    font-size: 110%;
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    text-decoration: none;
 }
 .textobell:hover{
-    color: white;
+    color: black;
+    text-decoration: underline;
 }
 
 .proginfo{
     background-color:#9d205281 ;
-    width: 50%;
+    width: 43%;
     border-radius: 30px;
     margin: 3%;
+    height: 80%;
+    margin-top: 4%;
 }
 .prog-img{
-    width: 80%;
-    margin-top: 10%;
-    margin-left: 11%;
+    width: 70%;
+    margin-top: 8%;
+    margin-left: 15%;
     border-radius: 10%;
 }
 .textoprog{
-    font-size: 100%;
-    color: #000;
-    font-family: 'Urbanist', sans-serif;
     text-align: center;
+    font-size: 110%;
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    text-decoration: none;
 }
 .textoprog:hover{
-    color: white;
+    color: black;
+    text-decoration: underline;
 }
 .fotillostitulo{
     background-color: #9d2053;
@@ -339,13 +369,13 @@ header {
 .img-fla{
     width: 20%;
     margin-top: 5%;
-    margin-left: 30%;
+    margin-left: 40%;
     border-radius: 20px;
     margin-bottom: 5%;
 
 }
 .img-fla:hover{
-    width: 30%;
+    width: 25%;
 }
 .infoadm{
     background-color: rgba(255, 255, 255, 0.589);
@@ -377,3 +407,1508 @@ header {
     margin-top: 3%;
     margin-left: 30%;
 }
+.margen1{
+    background-color: rgba(255, 255, 255, 0.575);
+    margin-left: 30%;
+    margin-right: 20%;
+    
+}
+.imgenff{
+    width: 50%;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+
+.inicio:hover{
+    width: 50%;
+    padding: 3%;
+    background-color: #341931;
+    color: white;
+    border-radius: 20px;
+    margin-left: 20%;
+}
+
+@media (max-width:1200px){
+    .logo{
+        display: flex;
+    }
+    .logo1{
+        width: 13%;
+        margin-left: 5%;
+        margin-top: 1%;
+        margin-bottom: 1%;
+    }
+    .buscar input {
+        width: 0;
+        height: 3%;
+        padding: 0.2%;
+        font-size: 120%;
+        color: #222;
+        outline: none;
+        border: 1% solid silver;
+        border-radius: 30px;
+        transition: all 0.6s ease;
+        margin-left: 34%;
+        position: absolute;
+        margin-top: -8.5%;
+        
+    }
+    
+    .btn {
+        width: 5%;
+        height: 6.3%;
+        line-height: 55px;
+        top: 15%;
+        right: 63%;
+        position: absolute;
+        background: #9d2053;
+        text-align: center;
+        color: black;
+        font-size: 130%;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+    .btn i{
+        position: relative;
+        top: -2%;
+    }
+      
+    .buscar:hover input {
+        width: 35%;
+    }
+      
+    .buscar input:focus {
+        width: 20%;
+    }
+    .mostrar-menú{
+        position: relative;
+        margin-top: -12%;
+        left: 90%;
+        font-size: 300%;
+        color: white;
+    }
+    .esconder-menú{
+        position: absolute;
+        top: 6%;
+        right: 43%;
+        font-size: 300%;
+        color: white;
+    }
+    .redessociales{
+        visibility: hidden;
+    }
+    .categorias{
+        position: fixed;
+        width: 40%;
+        height: 100%;
+        background-color: #9d2053;
+        right: -50%;
+        top: 0px;
+        padding: 15% 5%;
+        z-index: 100;
+        transition: 0.8s;
+        font-family: 'Urbanist', sans-serif;
+        
+    }
+    .categorias a{
+        display: block;
+        padding: 5%;
+        text-decoration: none;
+        color: white;
+        font-size: 150%;
+        font-weight: bolder;
+        text-align: center;
+        position: relative;
+        top: 10%;
+    }
+    .categorias2{
+        background-color:#9d2053 ;
+        padding: 2%;
+        font-family: 'Urbanist', sans-serif;
+        font-size: 200%;
+        text-align: center;
+    }
+    
+    .enfinfo{
+        background-color:#9d205281 ;
+        width: 35%;
+        border-radius: 30px;
+        margin: 3%;
+        margin-left: -3%;
+        
+    }
+    .enf-img{
+        width: 70%;
+        margin-top: 10%;
+        margin-left: 16%;
+        border-radius: 10%;
+    }
+    .textoenf{
+        text-align: center;
+        font-size: 100%;
+        color: white;
+        font-family: 'Rubik', sans-serif;
+        text-decoration: none;
+    
+    }
+    .todo{
+        display: flex;
+    }
+    
+    
+    .adinfo{
+        background-color:#9d205281 ;
+        width: 35%;
+        border-radius: 10%;
+        margin: 3%;
+
+    }
+    .ad-img{
+        width: 70%;
+        margin-top: 10%;
+        margin-left: 16%;
+        border-radius: 10%;
+    }
+    .textoad{
+        text-align: center;
+        font-size: 100%;
+        color:white;
+        font-family: 'Rubik', sans-serif;
+        text-decoration: none;
+    }
+   
+    .bellinfo{
+        background-color:#9d205281 ;
+        width: 48%;
+        border-radius: 30px;
+        margin: 2%;
+        margin-left: -6.5%;
+        margin-top: 4%;
+        height: 81%;
+    }
+    .bell-img{
+        width: 70%;
+        margin-top: 10%;
+        margin-left: 15%;
+        border-radius: 10%;
+    }
+    .textobell{
+        text-align: center;
+        font-size: 100%;
+        color: white;
+        font-family: 'Rubik', sans-serif;
+        text-decoration: none;
+    }
+    
+    
+    .proginfo{
+        background-color:#9d205281 ;
+        width: 50%;
+        border-radius: 30px;
+        margin: 3%;
+    }
+    .prog-img{
+        width: 70%;
+        margin-top: 10%;
+        margin-left: 16%;
+        border-radius: 10%;
+    }
+    .textoprog{
+        text-align: center;
+        font-size: 100%;
+        color: white;
+        font-family: 'Rubik', sans-serif;
+        text-decoration: none;
+    }
+    .fotillostitulo{
+        background-color: #9d2053;
+        padding: 0.5%;
+        font-family: 'Urbanist', sans-serif;
+        text-align: center;
+        font-size: 120%;
+    }
+    .fotillos{
+        color: white;
+        
+    }
+    .img-fla{
+        width: 20%;
+        margin-top: 5%;
+        margin-left: 40%;
+        border-radius: 20px;
+        margin-bottom: 5%;
+    
+    }
+    .img-fla:hover{
+        width: 30%;
+    }
+    .enfermeria1:hover{
+        width: 50%;
+        padding: 3%;
+        background-color: #341931;
+        color: white;
+        border-radius: 20px;
+        margin-left: 23%;
+    
+    }
+    .administracion1:hover{
+        width: 55%;
+        padding: 3%;
+        background-color: #341931;
+        color: white;
+        border-radius: 20px;
+        margin-left: 20%;
+    }
+    .belleza1:hover{
+        width: 40%;
+        padding: 3%;
+        background-color: #341931;
+        color: white;
+        border-radius: 20px;
+        margin-left: 27%;
+    }
+    .programacion1:hover{
+        width: 55%;
+        padding: 3%;
+        background-color: #341931;
+        color: white;
+        border-radius: 20px;
+        margin-left: 20%;
+    
+    }
+
+}
+@media (max-width:1024px){
+    .logo{
+        display: flex;
+    }
+    .logo1{
+        width: 13%;
+        margin-left: 5%;
+        margin-top: 1%;
+        margin-bottom: 1%;
+    }
+    .buscar input {
+        width: 0;
+        height: 3%;
+        padding: 0 1%;
+        font-size: 120%;
+        color: #222;
+        outline: none;
+        border: 1% solid silver;
+        border-radius: 30px;
+        transition: all 0.6s ease;
+        margin-left: 33%;
+        position: absolute;
+        margin-top: -8.5%;
+        
+    }
+    
+    .btn {
+        width: 6%;
+        height: 6.3%;
+        line-height: 55px;
+        top: 12%;
+        right: 63%;
+        position: absolute;
+        background: #9d2053;
+        text-align: center;
+        color: black;
+        font-size: 130%;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+    .btn i{
+        position: relative;
+        top: -2%;
+    }
+      
+    .buscar:hover input {
+        width: 35%;
+    }
+      
+    .buscar input:focus {
+        width: 20%;
+    }
+    .mostrar-menú{
+        position: relative;
+        margin-top: -12%;
+        left: 90%;
+        font-size: 280%;
+        color: white;
+    }
+    .esconder-menú{
+        position: absolute;
+        top: 6%;
+        right: 43%;
+        font-size: 270%;
+        color: white;
+    }
+    .redessociales{
+        visibility: hidden;
+    }
+    .categorias{
+        position: fixed;
+        width: 40%;
+        height: 100%;
+        background-color: #9d2053;
+        right: -50%;
+        top: 0px;
+        padding: 15% 5%;
+        z-index: 100;
+        transition: 0.8s;
+        font-family: 'Urbanist', sans-serif;
+        
+    }
+    .categorias a{
+        display: block;
+        padding: 5%;
+        text-decoration: none;
+        color: white;
+        font-size: 150%;
+        font-weight: bolder;
+        text-align: center;
+        position: relative;
+        top: 10%;
+    }
+    .categorias2{
+        background-color:#9d2053 ;
+        padding: 2.5%;
+        font-family: 'Urbanist', sans-serif;
+        font-size: 170%;
+        text-align: center;
+    }
+    
+    .enfinfo{
+        background-color:#9d205281 ;
+        width: 50%;
+        border-radius: 30px;
+        margin: 3%;
+        
+    }
+    .enf-img{
+        width: 60%;
+        margin-top: 10%;
+        margin-left: 20%;
+        border-radius: 10%;
+    }
+    .textoenf{
+        text-align: center;
+        font-size: 110%;
+        color: white;
+        font-family: 'Rubik', sans-serif;
+        text-decoration: none;
+    
+    }
+    .todo{
+        display: block;
+    }
+    
+    
+    .adinfo{
+        background-color:#9d205281 ;
+        width: 50%;
+        border-radius: 20px;
+        margin: 3%;
+
+    }
+    .ad-img{
+        width: 60%;
+        margin-top: 10%;
+        margin-left: 20%;
+        border-radius: 10%;
+    }
+    .textoad{
+        text-align: center;
+        font-size: 105%;
+        color:white;
+        font-family: 'Rubik', sans-serif;
+        text-decoration: none;
+    }
+   
+    .bellinfo{
+        background-color:#9d205281 ;
+        width: 50%;
+        border-radius: 30px;
+        margin: 3%;
+        margin-left: 17.5%;
+    }
+    .bell-img{
+        width: 60%;
+        margin-top: 10%;
+        margin-left: 20%;
+        border-radius: 10%;
+    }
+    .textobell{
+        text-align: center;
+        font-size: 110%;
+        color: white;
+        font-family: 'Rubik', sans-serif;
+        text-decoration: none;
+    }
+    
+    
+    .proginfo{
+        background-color:#9d205281 ;
+        width: 50%;
+        border-radius: 30px;
+        margin: 3%;
+    }
+    .prog-img{
+        width: 60%;
+        margin-top: 10%;
+        margin-left: 20%;
+        border-radius: 10%;
+    }
+    .textoprog{
+        text-align: center;
+        font-size: 110%;
+        color: white;
+        font-family: 'Rubik', sans-serif;
+        text-decoration: none;
+    }
+    .fotillostitulo{
+        background-color: #9d2053;
+        padding: 0.5%;
+        font-family: 'Urbanist', sans-serif;
+        text-align: center;
+        font-size: 95%;
+    }
+    .fotillos{
+        color: white;
+        
+    }
+    .img-fla{
+        width: 30%;
+        margin-top: 5%;
+        margin-left: 35%;
+        border-radius: 20px;
+        margin-bottom: 5%;
+    
+    }
+    .img-fla:hover{
+        width: 40%;
+    }
+    .enfermeria1:hover{
+        width: 50%;
+        padding: 3%;
+        background-color: #341931;
+        color: white;
+        border-radius: 20px;
+        margin-left: 23%;
+    
+    }
+    .administracion1:hover{
+        width: 55%;
+        padding: 3%;
+        background-color: #341931;
+        color: white;
+        border-radius: 20px;
+        margin-left: 20%;
+    }
+    .belleza1:hover{
+        width: 40%;
+        padding: 3%;
+        background-color: #341931;
+        color: white;
+        border-radius: 20px;
+        margin-left: 27%;
+    }
+    .programacion1:hover{
+        width: 55%;
+        padding: 3%;
+        background-color: #341931;
+        color: white;
+        border-radius: 20px;
+        margin-left: 20%;
+    
+    }
+
+}
+@media (max-width:768px){
+    .logo{
+        display: flex;
+    }
+    .logo1{
+        width: 15%;
+        margin-left: 5%;
+        margin-top: 1%;
+        margin-bottom: 1%;
+    }
+    .buscar input {
+        width: 0;
+        height: 3%;
+        padding: 0 1%;
+        font-size: 120%;
+        color: #222;
+        outline: none;
+        border: 1% solid silver;
+        border-radius: 30px;
+        transition: all 0.6s ease;
+        margin-left: 33%;
+        position: absolute;
+        margin-top: -8.5%;
+        
+    }
+    
+    .btn {
+        width: 8%;
+        height: 6.3%;
+        line-height: 55px;
+        top: 10%;
+        right: 63%;
+        position: absolute;
+        background: #9d2053;
+        text-align: center;
+        color: black;
+        font-size: 130%;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+    .btn i{
+        position: relative;
+        top: -2%;
+    }
+      
+    .buscar:hover input {
+        width: 35%;
+    }
+      
+    .buscar input:focus {
+        width: 20%;
+    }
+    .mostrar-menú{
+        position: relative;
+        margin-top: -14%;
+        left: 90%;
+        font-size: 270%;
+        color: white;
+    }
+    .esconder-menú{
+        position: absolute;
+        top: 4%;
+        right: 43%;
+        font-size: 250%;
+        color: white;
+    }
+    .redessociales{
+        visibility: hidden;
+    }
+    .categorias{
+        position: fixed;
+        width: 40%;
+        height: 100%;
+        background-color: #9d2053;
+        right: -50%;
+        top: 0px;
+        padding: 15% 5%;
+        z-index: 100;
+        transition: 0.8s;
+        font-family: 'Urbanist', sans-serif;
+        
+    }
+    .categorias a{
+        display: block;
+        padding: 5%;
+        text-decoration: none;
+        color: white;
+        font-size: 120%;
+        font-weight: bolder;
+        text-align: center;
+        position: relative;
+        top: 10%;
+    }
+    .categorias2{
+        background-color:#9d2053 ;
+        padding: 2%;
+        font-family: 'Urbanist', sans-serif;
+        font-size: 130%;
+        text-align: center;
+    }
+    .enfinfo{
+        background-color:#9d205281 ;
+        width: 50%;
+        border-radius: 30px;
+        margin: 3%;
+    }
+    .enf-img{
+        width: 80%;
+        margin-top: 10%;
+        margin-left: 11%;
+        border-radius: 10%;
+    }
+    .textoenf{
+        text-align: center;
+        font-size: 95%;
+        color: white;
+        font-family: 'Rubik', sans-serif;
+        text-decoration: none;
+    
+    }
+    .todo{
+        display: block;
+    }
+    
+    
+    .adinfo{
+        background-color:#9d205281 ;
+        width: 50%;
+        border-radius: 20px;
+        margin: 3%;
+
+    }
+    .ad-img{
+        width: 80%;
+        margin-top: 10%;
+        margin-left: 11%;
+        border-radius: 10%;
+    }
+    .textoad{
+        text-align: center;
+        font-size: 90%;
+        color:white;
+        font-family: 'Rubik', sans-serif;
+        text-decoration: none;
+    }
+   
+    .bellinfo{
+        background-color:#9d205281 ;
+        width: 50%;
+        border-radius: 30px;
+        margin: 3%;
+        margin-left: 17%;
+    }
+    .bell-img{
+        width: 80%;
+        margin-top: 10%;
+        margin-left: 11%;
+        border-radius: 10%;
+    }
+    .textobell{
+        text-align: center;
+        font-size: 95%;
+        color: white;
+        font-family: 'Rubik', sans-serif;
+        text-decoration: none;
+    }
+    
+    
+    .proginfo{
+        background-color:#9d205281 ;
+        width: 50%;
+        border-radius: 30px;
+        margin: 3%;
+    }
+    .prog-img{
+        width: 80%;
+        margin-top: 10%;
+        margin-left: 11%;
+        border-radius: 10%;
+    }
+    .textoprog{
+        text-align: center;
+        font-size: 95%;
+        color: white;
+        font-family: 'Rubik', sans-serif;
+        text-decoration: none;
+    }
+    .fotillostitulo{
+        background-color: #9d2053;
+        padding: 0.5%;
+        font-family: 'Urbanist', sans-serif;
+        text-align: center;
+        font-size: 95%;
+    }
+    .fotillos{
+        color: white;
+        
+    }
+    .img-fla{
+        width: 40%;
+        margin-top: 5%;
+        margin-left: 30%;
+        border-radius: 20px;
+        margin-bottom: 5%;
+    
+    }
+    .img-fla:hover{
+        width: 50%;
+    }
+    .enfermeria1:hover{
+        width: 80%;
+        padding: 3%;
+        background-color: #341931;
+        color: white;
+        border-radius: 20px;
+        margin-left: 10%;
+    
+    }
+    .administracion1:hover{
+        width: 110%;
+        padding: 3%;
+        background-color: #341931;
+        color: white;
+        border-radius: 20px;
+        margin-left: 0%;
+    }
+    .belleza1:hover{
+        width: 55%;
+        padding: 3%;
+        background-color: #341931;
+        color: white;
+        border-radius: 20px;
+        margin-left: 20%;
+    }
+    .programacion1:hover{
+        width: 100%;
+        padding: 3%;
+        background-color: #341931;
+        color: white;
+        border-radius: 20px;
+        margin-left: 3%;
+    
+    }
+
+}
+@media (max-width:600px){
+    .logo{
+        display: flex;
+    }
+    .logo1{
+        width: 20%;
+        margin-left: 5%;
+        margin-top: 1%;
+        margin-bottom: 1%;
+    }
+    .buscar input {
+        width: 0;
+        height: 3%;
+        padding: 0 1%;
+        font-size: 120%;
+        color: #222;
+        outline: none;
+        border: 1% solid silver;
+        border-radius: 30px;
+        transition: all 0.6s ease;
+        margin-left: 36%;
+        position: absolute;
+        margin-top: -12%;
+        
+    }
+    
+    .btn {
+        width: 8%;
+        height: 5%;
+        line-height: 55px;
+        top: 9%;
+        right: 60%;
+        position: absolute;
+        background: #9d2053;
+        text-align: center;
+        color: black;
+        font-size: 130%;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+    .btn i{
+        position: relative;
+        top: -17%;
+    }
+      
+    .buscar:hover input {
+        width: 35%;
+    }
+      
+    .buscar input:focus {
+        width: 20%;
+    }
+    .mostrar-menú{
+        position: relative;
+        margin-top: -19%;
+        left: 90%;
+        font-size: 250%;
+        color: white;
+    }
+    .esconder-menú{
+        position: absolute;
+        top: 4%;
+        right: 43%;
+        font-size: 250%;
+        color: white;
+    }
+    .redessociales{
+        visibility: hidden;
+    }
+    .categorias{
+        position: fixed;
+        width: 40%;
+        height: 100%;
+        background-color: #9d2053;
+        right: -50%;
+        top: 0px;
+        padding: 15% 5%;
+        z-index: 100;
+        transition: 0.8s;
+        font-family: 'Urbanist', sans-serif;
+        
+    }
+    .categorias a{
+        display: block;
+        padding: 5%;
+        text-decoration: none;
+        color: white;
+        font-size: 120%;
+        font-weight: bolder;
+        text-align: center;
+        position: relative;
+        top: 10%;
+    }
+    .categorias2{
+        background-color:#9d2053 ;
+        padding: 1%;
+        font-family: 'Urbanist', sans-serif;
+        font-size: 100%;
+        text-align: center;
+    }
+    .enfinfo{
+        background-color:#9d205281 ;
+        width: 50%;
+        border-radius: 30px;
+        margin: 3%;
+    }
+    .enf-img{
+        width: 80%;
+        margin-top: 10%;
+        margin-left: 11%;
+        border-radius: 10%;
+    }
+    .textoenf{
+        text-align: center;
+        font-size: 75%;
+        color: white;
+        font-family: 'Rubik', sans-serif;
+        text-decoration: none;
+    
+    }
+    .todo{
+        display: block;
+    }
+    
+    
+    .adinfo{
+        background-color:#9d205281 ;
+        width: 50%;
+        border-radius: 20px;
+        margin: 3%;
+
+    }
+    .ad-img{
+        width: 80%;
+        margin-top: 10%;
+        margin-left: 11%;
+        border-radius: 10%;
+    }
+    .textoad{
+        text-align: center;
+        font-size: 75%;
+        color:white;
+        font-family: 'Rubik', sans-serif;
+        text-decoration: none;
+    }
+   
+    .bellinfo{
+        background-color:#9d205281 ;
+        width: 50%;
+        border-radius: 30px;
+        margin: 3%;
+        margin-left: 17%;
+    }
+    .bell-img{
+        width: 80%;
+        margin-top: 10%;
+        margin-left: 11%;
+        border-radius: 10%;
+    }
+    .textobell{
+        text-align: center;
+        font-size: 75%;
+        color: white;
+        font-family: 'Rubik', sans-serif;
+        text-decoration: none;
+    }
+    
+    
+    .proginfo{
+        background-color:#9d205281 ;
+        width: 50%;
+        border-radius: 30px;
+        margin: 3%;
+    }
+    .prog-img{
+        width: 80%;
+        margin-top: 10%;
+        margin-left: 11%;
+        border-radius: 10%;
+    }
+    .textoprog{
+        text-align: center;
+        font-size: 75%;
+        color: white;
+        font-family: 'Rubik', sans-serif;
+        text-decoration: none;
+    }
+    .fotillostitulo{
+        background-color: #9d2053;
+        padding: 0.5%;
+        font-family: 'Urbanist', sans-serif;
+        text-align: center;
+        font-size: 85%;
+    }
+    .fotillos{
+        color: white;
+        
+    }
+    .img-fla{
+        width: 40%;
+        margin-top: 5%;
+        margin-left: 30%;
+        border-radius: 20px;
+        margin-bottom: 5%;
+    
+    }
+    .img-fla:hover{
+        width: 50%;
+    }
+    .enfermeria1:hover{
+        width: 80%;
+        padding: 3%;
+        background-color: #341931;
+        color: white;
+        border-radius: 20px;
+        margin-left: 10%;
+    
+    }
+    .administracion1:hover{
+        width: 110%;
+        padding: 3%;
+        background-color: #341931;
+        color: white;
+        border-radius: 20px;
+        margin-left: 0%;
+    }
+    .belleza1:hover{
+        width: 55%;
+        padding: 3%;
+        background-color: #341931;
+        color: white;
+        border-radius: 20px;
+        margin-left: 20%;
+    }
+    .programacion1:hover{
+        width: 100%;
+        padding: 3%;
+        background-color: #341931;
+        color: white;
+        border-radius: 20px;
+        margin-left: 3%;
+    
+    }
+
+}
+@media (max-width:480px){
+    .logo{
+        display: flex;
+    }
+    .logo1{
+        width: 20%;
+        margin-left: 5%;
+        margin-top: 1%;
+        margin-bottom: 1%;
+    }
+    .buscar input {
+        width: 0;
+        height: 3%;
+        padding: 0 1%;
+        font-size: 120%;
+        color: #222;
+        outline: none;
+        border: 1% solid silver;
+        border-radius: 30px;
+        transition: all 0.6s ease;
+        margin-left: 36%;
+        position: absolute;
+        margin-top: -14%;
+        
+    }
+    
+    .btn {
+        width: 12%;
+        height: 5.5%;
+        line-height: 55px;
+        top: 5%;
+        right: 55%;
+        position: absolute;
+        background: #9d2053;
+        text-align: center;
+        color: black;
+        font-size: 130%;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+    .btn i{
+        position: relative;
+        top: -9%;
+    }
+      
+    .buscar:hover input {
+        width: 35%;
+    }
+      
+    .buscar input:focus {
+        width: 20%;
+    }
+    .mostrar-menú{
+        position: relative;
+        margin-top: -23%;
+        left: 90%;
+        font-size: 270%;
+        color: white;
+    }
+    .esconder-menú{
+        position: absolute;
+        top: 4%;
+        right: 43%;
+        font-size: 250%;
+        color: white;
+    }
+    .redessociales{
+        visibility: hidden;
+    }
+    .categorias{
+        position: fixed;
+        width: 40%;
+        height: 100%;
+        background-color: #9d2053;
+        right: -50%;
+        top: 0px;
+        padding: 15% 5%;
+        z-index: 100;
+        transition: 0.8s;
+        font-family: 'Urbanist', sans-serif;
+        
+    }
+    .categorias a{
+        display: block;
+        padding: 5%;
+        text-decoration: none;
+        color: white;
+        font-size: 120%;
+        font-weight: bolder;
+        text-align: center;
+        position: relative;
+        top: 10%;
+    }
+    .categorias2{
+        background-color:#9d2053 ;
+        padding: 1%;
+        font-family: 'Urbanist', sans-serif;
+        font-size: 140%;
+        text-align: center;
+    }
+    .enfinfo{
+        background-color:#9d205281 ;
+        width: 50%;
+        border-radius: 30px;
+        margin: 3%;
+    }
+    .enf-img{
+        width: 80%;
+        margin-top: 10%;
+        margin-left: 11%;
+        border-radius: 10%;
+    }
+    .textoenf{
+        text-align: center;
+        font-size: 75%;
+        color: white;
+        font-family: 'Rubik', sans-serif;
+        text-decoration: none;
+    
+    }
+    .todo{
+        display: block;
+    }
+    
+    
+    .adinfo{
+        background-color:#9d205281 ;
+        width: 50%;
+        border-radius: 20px;
+        margin: 3%;
+
+    }
+    .ad-img{
+        width: 80%;
+        margin-top: 10%;
+        margin-left: 11%;
+        border-radius: 10%;
+    }
+    .textoad{
+        text-align: center;
+        font-size: 75%;
+        color:white;
+        font-family: 'Rubik', sans-serif;
+        text-decoration: none;
+    }
+   
+    .bellinfo{
+        background-color:#9d205281 ;
+        width: 50%;
+        border-radius: 30px;
+        margin: 3%;
+        margin-left: 17%;
+    }
+    .bell-img{
+        width: 80%;
+        margin-top: 10%;
+        margin-left: 11%;
+        border-radius: 10%;
+    }
+    .textobell{
+        text-align: center;
+        font-size: 75%;
+        color: white;
+        font-family: 'Rubik', sans-serif;
+        text-decoration: none;
+    }
+    
+    
+    .proginfo{
+        background-color:#9d205281 ;
+        width: 50%;
+        border-radius: 30px;
+        margin: 3%;
+    }
+    .prog-img{
+        width: 80%;
+        margin-top: 10%;
+        margin-left: 11%;
+        border-radius: 10%;
+    }
+    .textoprog{
+        text-align: center;
+        font-size: 75%;
+        color: white;
+        font-family: 'Rubik', sans-serif;
+        text-decoration: none;
+    }
+    .fotillostitulo{
+        background-color: #9d2053;
+        padding: 0.5%;
+        font-family: 'Urbanist', sans-serif;
+        text-align: center;
+        font-size: 85%;
+    }
+    .fotillos{
+        color: white;
+        
+    }
+    .img-fla{
+        width: 40%;
+        margin-top: 5%;
+        margin-left: 30%;
+        border-radius: 20px;
+        margin-bottom: 5%;
+    
+    }
+    .img-fla:hover{
+        width: 50%;
+    }
+    .enfermeria1:hover{
+        width: 80%;
+        padding: 3%;
+        background-color: #341931;
+        color: white;
+        border-radius: 20px;
+        margin-left: 10%;
+    
+    }
+    .administracion1:hover{
+        width: 110%;
+        padding: 3%;
+        background-color: #341931;
+        color: white;
+        border-radius: 20px;
+        margin-left: 0%;
+    }
+    .belleza1:hover{
+        width: 55%;
+        padding: 3%;
+        background-color: #341931;
+        color: white;
+        border-radius: 20px;
+        margin-left: 20%;
+    }
+    .programacion1:hover{
+        width: 100%;
+        padding: 3%;
+        background-color: #341931;
+        color: white;
+        border-radius: 20px;
+        margin-left: 3%;
+    
+    }
+
+}
+
+
+
+@media (max-width:320px){
+    .logo{
+        display: flex;
+    }
+    .logo1{
+        width: 20%;
+        margin-left: 5%;
+        margin-top: 1%;
+        margin-bottom: 1%;
+    }
+    .buscar input {
+        width: 0;
+        height: 3%;
+        padding: 0 1%;
+        font-size: 120%;
+        color: #222;
+        outline: none;
+        border: 1% solid silver;
+        border-radius: 30px;
+        transition: all 0.6s ease;
+        margin-left: 36%;
+        position: absolute;
+        margin-top: -14%;
+        
+    }
+    
+    .btn {
+        width: 12%;
+        height: 4.5%;
+        line-height: 55px;
+        top: 4%;
+        right: 55%;
+        position: absolute;
+        background: #9d2053;
+        text-align: center;
+        color: black;
+        font-size: 130%;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+    .btn i{
+        position: relative;
+        top: -18%;
+    }
+      
+    .buscar:hover input {
+        width: 35%;
+    }
+      
+    .buscar input:focus {
+        width: 20%;
+    }
+    .mostrar-menú{
+        position: relative;
+        margin-top: -23%;
+        left: 90%;
+        font-size: 230%;
+        color: white;
+    }
+    .esconder-menú{
+        position: absolute;
+        top: 4%;
+        right: 43%;
+        font-size: 250%;
+        color: white;
+    }
+    .redessociales{
+        visibility: hidden;
+    }
+    .categorias{
+        position: fixed;
+        width: 40%;
+        height: 100%;
+        background-color: #9d2053;
+        right: -50%;
+        top: 0px;
+        padding: 15% 5%;
+        z-index: 100;
+        transition: 0.8s;
+        font-family: 'Urbanist', sans-serif;
+        
+    }
+    .categorias a{
+        display: block;
+        padding: 5%;
+        text-decoration: none;
+        color: white;
+        font-size: 120%;
+        font-weight: bolder;
+        text-align: center;
+        position: relative;
+        top: 10%;
+    }
+    .categorias2{
+        background-color:#9d2053 ;
+        padding: 1%;
+        font-family: 'Urbanist', sans-serif;
+        font-size: 100%;
+        text-align: center;
+    }
+    .enfinfo{
+        background-color:#9d205281 ;
+        width: 50%;
+        border-radius: 30px;
+        margin: 3%;
+    }
+    .enf-img{
+        width: 80%;
+        margin-top: 10%;
+        margin-left: 11%;
+        border-radius: 10%;
+    }
+    .textoenf{
+        text-align: center;
+        font-size: 75%;
+        color: white;
+        font-family: 'Rubik', sans-serif;
+        text-decoration: none;
+    
+    }
+    .todo{
+        display: block;
+    }
+    
+    
+    .adinfo{
+        background-color:#9d205281 ;
+        width: 50%;
+        border-radius: 20px;
+        margin: 3%;
+
+    }
+    .ad-img{
+        width: 80%;
+        margin-top: 10%;
+        margin-left: 11%;
+        border-radius: 10%;
+    }
+    .textoad{
+        text-align: center;
+        font-size: 75%;
+        color:white;
+        font-family: 'Rubik', sans-serif;
+        text-decoration: none;
+    }
+   
+    .bellinfo{
+        background-color:#9d205281 ;
+        width: 50%;
+        border-radius: 30px;
+        margin: 3%;
+        margin-left: 17%;
+    }
+    .bell-img{
+        width: 80%;
+        margin-top: 10%;
+        margin-left: 11%;
+        border-radius: 10%;
+    }
+    .textobell{
+        text-align: center;
+        font-size: 75%;
+        color: white;
+        font-family: 'Rubik', sans-serif;
+        text-decoration: none;
+    }
+    
+    
+    .proginfo{
+        background-color:#9d205281 ;
+        width: 50%;
+        border-radius: 30px;
+        margin: 3%;
+    }
+    .prog-img{
+        width: 80%;
+        margin-top: 10%;
+        margin-left: 11%;
+        border-radius: 10%;
+    }
+    .textoprog{
+        text-align: center;
+        font-size: 75%;
+        color: white;
+        font-family: 'Rubik', sans-serif;
+        text-decoration: none;
+    }
+    .fotillostitulo{
+        background-color: #9d2053;
+        padding: 0.5%;
+        font-family: 'Urbanist', sans-serif;
+        text-align: center;
+        font-size: 85%;
+    }
+    .fotillos{
+        color: white;
+        
+    }
+    .img-fla{
+        width: 40%;
+        margin-top: 5%;
+        margin-left: 30%;
+        border-radius: 20px;
+        margin-bottom: 5%;
+    
+    }
+    .img-fla:hover{
+        width: 50%;
+    }
+    .enfermeria1:hover{
+        width: 80%;
+        padding: 3%;
+        background-color: #341931;
+        color: white;
+        border-radius: 20px;
+        margin-left: 10%;
+    
+    }
+    .administracion1:hover{
+        width: 110%;
+        padding: 3%;
+        background-color: #341931;
+        color: white;
+        border-radius: 20px;
+        margin-left: 0%;
+    }
+    .belleza1:hover{
+        width: 55%;
+        padding: 3%;
+        background-color: #341931;
+        color: white;
+        border-radius: 20px;
+        margin-left: 20%;
+    }
+    .programacion1:hover{
+        width: 100%;
+        padding: 3%;
+        background-color: #341931;
+        color: white;
+        border-radius: 20px;
+        margin-left: 3%;
+    
+    }
+
+}
+
+
+
+
