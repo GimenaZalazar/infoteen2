@@ -58,7 +58,8 @@ header {
 }
 .btn i{
     position: relative;
-    top: -1%;
+    top: 0%;
+    
 }
 
   
@@ -366,16 +367,72 @@ header {
     color: white;
     
 }
-.img-fla{
-    width: 20%;
+.img-config{
+    display: flex;
+}
+.img-config2{
+    margin-left: 19%;
+    display: flex;
+}
+.img-21{
+    width: 25%;
+    height: 5%;
     margin-top: 5%;
-    margin-left: 40%;
     border-radius: 20px;
     margin-bottom: 5%;
-
+    margin-left: -3%;
+    box-shadow: black 5px 7px 15px;
+    transition: 0,5s;
+    object-fit: cover;
+}
+.img-2{
+    width: 25%;
+    height: 5%;
+    margin-top: 5%;
+    border-radius: 20px;
+    margin-bottom: 5%;
+    margin-left: -10%;
+    box-shadow: black 5px 7px 15px;
+    transition: 0,5s;
+    object-fit: cover;
+}
+.img-21:hover{
+    transform: scale(1.1);
+    z-index: 1;
+}
+.img-2:hover{
+    transform: scale(1.1);
+    z-index: 1;
+}
+.img-fla1{
+    width: 20%;
+    height: 5%;
+    margin-top: 5%;
+    border-radius: 20px;
+    margin-bottom: 5%;
+    margin-left: 10%;
+    box-shadow: black 5px 7px 15px;
+    transition: 0,5s;
+    object-fit: cover;
+}
+.img-fla1:hover{
+    transform: scale(1.1);
+    z-index: 1;
+}
+.img-fla{
+    width: 20%;
+    height: 5%;
+    margin-top: 5%;
+    border-radius: 20px;
+    margin-bottom: 5%;
+    margin-left: -10%;
+    box-shadow: black 5px 7px 15px;
+    transition: 0,5s;
+    object-fit: cover;
 }
 .img-fla:hover{
-    width: 25%;
+    transform: scale(1.1);
+    z-index: 1;
 }
 .infoadm{
     background-color: rgba(255, 255, 255, 0.589);
@@ -427,6 +484,7 @@ header {
     border-radius: 20px;
     margin-left: 20%;
 }
+
 
 @media (max-width:1200px){
     .logo{
@@ -631,13 +689,16 @@ header {
         color: white;
         
     }
+    .img-config{
+        display: flex;
+    }
     .img-fla{
         width: 20%;
         margin-top: 5%;
         margin-left: 40%;
         border-radius: 20px;
         margin-bottom: 5%;
-    
+            
     }
     .img-fla:hover{
         width: 30%;
